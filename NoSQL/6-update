@@ -1,2 +1,6 @@
 // A script that adds a new attribute to a document in the collection
-db.school.update({address: "972 Mission street"})
+db.school.update( 
+    {$set: {"new_attribute":"attribute_value"}}, 
+    false, 
+    true
+)
