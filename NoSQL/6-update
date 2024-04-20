@@ -1,0 +1,2 @@
+// A script that adds a new attribute to a document in the collection
+db.school.update({address: "972 Mission street"})
