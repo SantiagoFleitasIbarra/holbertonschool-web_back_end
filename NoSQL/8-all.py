@@ -3,6 +3,7 @@
 
 
 def list_all(mongo_collection):
+    """mongo_collection will be the pymongo collection object"""
     all_document = []
     if mongo_collection is None:
         return []
